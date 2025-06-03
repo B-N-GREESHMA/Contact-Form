@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background"></div>
+
+  <div class="form-wrapper">
+    <h1>Get in Touch</h1>
+    <form id="contactForm">
+      <label>Name</label>
+      <input type="text" id="name" placeholder="Your name">
+      <span class="error" id="nameError"></span>
+
+      <label>Email</label>
+      <input type="email" id="email" placeholder="Your email">
+      <span class="error" id="emailError"></span>
+
+      <label>Message</label>
+      <textarea id="message" placeholder="Write your message..."></textarea>
+      <span class="error" id="messageError"></span>
+
+      <button type="submit">Send Message</button>
+      <p id="successMsg" class="success"></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
